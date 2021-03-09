@@ -1,221 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="./assets/favicon.png"/>
 
-    <!-- Put here your site title -->
-    <title>Daniel Archibald | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="pagodingo, daniel archibald, software engineer, software developer, ruby developer, ruby-on-rails developer" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Daniel Archibald] | Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+  <!-- Put here your site title -->
+  <title>Daniel Archibald | Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords"
+    content="pagodingo, daniel archibald, software engineer, software developer, ruby developer, ruby-on-rails developer" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="[Daniel Archibald] | Developer" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-  </head>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Remove this script once you setup your custom portfolio -->
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, I'm Daniel.
-          <br />Let's<span style="color:rgb(168, 33, 60)"> Collaborate!</span>
-          
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-            <a class="cta-btn cta-btn--hero" href="#about">More</a>
-          </p>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, I'm Daniel.
+        <br />Let's<span style="color:rgb(168, 33, 60)"> Collaborate!</span>
+
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">More</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/IMG_1446.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <strong>My mission is to help organize, refresh, and execute your ideas.</strong>
+
+              <br>
+              <br>
+              My name is Daniel Archibald. Since 2018 I have had hands-on experience developing Web Applications.
+              I can help you build scalable web apps that are capable of solving real world problems.
+              If your team utilizes Github for version control, I'm very well educated on submitting pull requests to
+              team projects.
+              For front-end development, I design simple, clean and elegant UIs using Javascript, HTML & CSS, and
+              frameworks such as React to produce responsive layouts.
+              This portfolio and other projects I have produced in the past have been deployed using PaaS sites such as
+              Heroku, Netlify and AWS.
+
+              For back-end development PostgreSQL and MongoDB support my database management.
+            </p>
+            <span class="d-flex mt-3">
+              <a href="#projects" class="cta-btn cta-btn--resume">
+                My Projects
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/IMG_1446.jpg"
-                alt="Profile Image"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                <br>
+        <small>(Project links may take a moment to load)</small>
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Pokédex!</h3>
+              <div>
+                <p class="mb-4">
+                  A Pokédex made using the PokéAPI by Pokedevs
                   <br>
-                    <br>
-                      <br>
-                      <br>
-                      <br>
-                      <strong>My mission is to help organize, refresh, and execute your ideas.</strong>
-                      
-                      <br>
-                      <br>
-                      My name is Daniel Archibald. Since 2018 I have had hands-on experience developing Web Applications. 
-                      I can help you build scalable web apps that are capable of solving real world problems.
-                      If your team utilizes Github for version control, I'm very well educated on submitting pull requests to team projects.
-                      For front-end development, I design simple, clean and elegant UIs using Javascript, HTML & CSS, and frameworks such as React to produce responsive layouts. 
-                      This portfolio and other projects I have produced in the past have been deployed using PaaS sites such as Heroku, Netlify and AWS.
-                         
-                      For back-end development PostgreSQL and MongoDB support my database management.
-              </p>
-              <span class="d-flex mt-3">
-                <a  href="#projects" class="cta-btn cta-btn--resume" >
-                  My Projects
-                </a>
-              </span>
+                  <br>
+                  I grew up playing all things Pokémon with my friends, making this project feel
+                   especially sentimental to create 
+                   ♡
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-          <small>(Project links may take a moment to load)</small>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Reddit Clone (Ruby Development)</h3>
-                <div>
-                  <p class="mb-4">
-                    Based off <a href="https://www.reddit.com/" style="color: rgb(45, 136, 189)" target="_blank"><b>Reddit</b></a>. This is a seamless Ruby-on-Rails app I've built, deployed, and continue to develop for presentational and educational purposes.
-                    <br><br>It encompasses all of the core functionalites of Reddit, which include: 
-                    <ul>
-                      <li style="font-size:15px">User Authentication: Users can create their own accounts</li>
-                      <li style="font-size:15px">Users can also Create, Read, Update and Destroy Links/Posts</li>
-                      <li style="font-size:15px">Users can add Comments</li>
-                    </ul>
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://friendly-leakey-da22b4.netlify.app/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/venusaur.png" />
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://mighty-peak-43349.herokuapp.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/Replacement Reddit Screenshot.png"/>
-                  </div>
-                </a>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Reddit Clone (Ruby Development)</h3>
+              <div>
+                <p class="mb-4">
+                  Based off <a href="https://www.reddit.com/" style="color: rgb(45, 136, 189)"
+                    target="_blank"><b>Reddit</b></a>. This is a seamless Ruby-on-Rails app I've built, deployed, and
+                  continue to develop for presentational and educational purposes.
+                  <br><br>It encompasses all of the core functionalites of Reddit, which include:
+                <ul>
+                  <li style="font-size:15px">User Authentication: Users can create their own accounts</li>
+                  <li style="font-size:15px">Users can also Create, Read, Update and Destroy Links/Posts</li>
+                  <li style="font-size:15px">Users can add Comments</li>
+                </ul>
+                </p>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Fossilite (WordPress Development & Blog)</h3>
-                <div>
-                  <p class="mb-4">
-                    As WordPress and other web builders are becoming increasingly more popular, 
-                    I've decided to jump into the game and familiarize myself with its functionality. 
-                   <br> 
-                    <br>
-                    Fossilite serves as a tool for me to be able to write about new ideas, document my own personal developement,
-                    and work as a creative tool to learn more. 
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://mighty-peak-43349.herokuapp.com/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/Replacement Reddit Screenshot.png" />
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://collabwithdaniel.wordpress.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/Fossilite.png"/>
-                  </div>
-                </a>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Fossilite (WordPress Development & Blog)</h3>
+              <div>
+                <p class="mb-4">
+                  As WordPress and other web builders are becoming increasingly more popular,
+                  I've decided to jump into the game and familiarize myself with its functionality.
+                  <br>
+                  <br>
+                  Fossilite serves as a tool for me to be able to write about new ideas, document my own personal
+                  developement,
+                  and work as a creative tool to learn more.
+                </p>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://collabwithdaniel.wordpress.com/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/Fossilite.png" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
+        <!-- /END Project -->
       </div>
-    </section>
-    <!-- /END Projects Section -->
+    </div>
+  </section>
+  <!-- /END Projects Section -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            daniel.danielarchibald@gmail.com <br>
-            (772) 631-3170
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:daniel.danielarchibald@gmail.com"
-            >Send an Email</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/daniel-archibald-4213389b/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/PagoDingo" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez on Github</a>
-          </a>
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          daniel.danielarchibald@gmail.com <br>
+          (772) 631-3170
         </p>
-
-        <!-- Remove this paragraph once you setup your custom portfolio -->
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:daniel.danielarchibald@gmail.com">Send an
+          Email</a>
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+    </div>
+    <br>
+
+    <div id="comment-section">
+      <h1>Have Some Advice? Leave a Comment!</h1>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/daniel-archibald-4213389b/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/PagoDingo" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <!-- If you give me some credit, will be huge for me :) -->
+      <p class="footer__text">
+        © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez on
+          Github</a>
+        </a>
+      </p>
+
+      <!-- Remove this paragraph once you setup your custom portfolio -->
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
